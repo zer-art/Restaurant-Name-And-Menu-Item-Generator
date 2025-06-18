@@ -34,43 +34,24 @@ This project is a web application built with Streamlit that leverages Large Lang
 ### 2. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd RName-gen
-```
+git clone <https://github.com/zer-art/Restaurant-Name-And-Menu-Item-Generator>
 
-### 3. Create a Virtual Environment (Recommended)
-
-```bash
-python -m venv venv
-# On Windows
-venv\Scripts\activate
-# On macOS/Linux
-source venv/bin/activate
 ```
 
 ### 4. Install Dependencies
 
-Create a `requirements.txt` file with the following content:
-
-```txt
-streamlit
-python-dotenv
-langchain
-langchain-google-genai
-google-generativeai
-```
-
-Then install the dependencies:
+run command : 
 
 ```bash
-pip install -r requirements.txt
+`pip install -r requirements.txt` 
 ```
 
-### 5. Set Up Environment Variables
+
+### 4. Set Up Environment Variables
 
 You'll need a Google Gemini API key.
 
-1.  Create a file named `.env` in the root directory of the project (`RName-gen/.env`).
+1.  Create a file named `.env` in the root directory of the project (`Restaurant Name And Munu Item Generator/.env`).
 2.  Add your Gemini API key to the `.env` file:
 
     ```env
@@ -78,7 +59,7 @@ You'll need a Google Gemini API key.
     ```
     Replace `"YOUR_GEMINI_API_KEY"` with your actual API key.
 
-### 6. Prepare Data Files
+### 5. Prepare Data Files
 
 Ensure you have the `data` directory with `cuisines.txt` and `styles.txt` in the root of your project.
 
@@ -96,7 +77,7 @@ French
 
 ## Usage
 
-1.  Ensure your virtual environment is activated and you are in the project's root directory.
+1.  Ensure your main system or Python virtual environment is activated and you are in the project's root directory.
 2.  Run the Streamlit application:
 
     ```bash
